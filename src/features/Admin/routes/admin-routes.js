@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const adminController = require('../Admin/controller');
+const adminController = require('../Admin/controllers');
 
 // Create a new admin
 router.post('/', adminController.createAdmin);
