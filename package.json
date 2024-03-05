@@ -1,0 +1,15 @@
+{
+  "name": "online-exam-platform",
+  "version": "1.0.0",
+  "description": "Graduation Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andrew-Victor/Graduation-project.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
