@@ -4,7 +4,7 @@ This is an online exam platform website built using the MERN stack (MongoDB, Exp
 ## Features:
 STILL WORKING ON IT
 
-## Tech Stack Used:
+## Stack Used:
 
 #### Back-End:
 <img alt="NodeJS" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/> <img alt="ExpressJS" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/> <img alt="Mongoose" src ="https://img.shields.io/badge/Mongoose-orange?style=for-the-badge&logo=mongodb&logoColor=white"/> <img alt="JWT" src ="https://img.shields.io/badge/JWT-red?style=for-the-badge&logo=JSON+Web+Tokens&logoColor=white"/> 
