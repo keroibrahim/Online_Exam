@@ -1,4 +1,4 @@
-import Admin from '../models/Admin'; // admin model file
+import Admin from '../Admin/model'; // admin model file
 import { isValidPhoneNumber } from 'libphonenumber-js';
 import bcrypt from 'bcryptjs';
 
