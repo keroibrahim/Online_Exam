@@ -1,22 +1,20 @@
-// still modifying on it 
-
-const express = require('express');
+import express from 'express';
+import { createAdmin, getAllAdmins, getAdminById, updateAdmin, deleteAdmin } from '../Admin/Controller';
 const router = express.Router();
-const adminController = require('../Admin/controllers');
 
-// Create a new admin
-router.post('/', adminController.createAdmin);
+// Route to create a new admin
+router.post('/admins', createAdmin);
 
-// Retrieve all admins
-router.get('/', adminController.getAllAdmins);
+// Route to get all admins
+router.get('/admins', getAllAdmins);
 
-// Retrieve an admin by ID
-router.get('/:id', adminController.getAdminById);
+// Route to get an admin by ID
+router.get('/admins/:id', getAdminById);
 
-// Update an admin
-router.put('/:id', adminController.updateAdmin);
+// Route to update an admin
+router.put('/admins/:id', updateAdmin);
 
-// Delete an admin
-router.delete('/:id', adminController.deleteAdmin);
+// Route to delete an admin
+router.delete('/admins/:id', deleteAdmin);
 
-module.exports = router;
+export default router;
